@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/yourname/hotconf"
+	"github.com/IT20122614/hotconf"
 )
 
 // ---- helpers ----------------------------------------------------------------

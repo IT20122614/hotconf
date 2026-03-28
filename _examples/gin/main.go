@@ -13,14 +13,14 @@ import (
 	"net/http"
 	"os"
 
+	"github.com/IT20122614/hotconf"
 	"github.com/gin-gonic/gin"
-	"github.com/yourname/hotconf"
 )
 
 // AppConfig mirrors whatever struct your existing Gin app already uses.
 type AppConfig struct {
 	Port     string `json:"port"`
-	GinMode  string `json:"gin_mode"`  // "debug" | "release" | "test"
+	GinMode  string `json:"gin_mode"` // "debug" | "release" | "test"
 	LogLevel string `json:"log_level"`
 	Greeting string `json:"greeting"`
 }

@@ -1,4 +1,4 @@
-module github.com/yourname/hotconf
+module github.com/IT20122614/hotconf
 
 go 1.21
 
